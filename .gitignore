@@ -1,0 +1,12 @@
+**target/
+**/.mvn/
+**/.idea/
+**/.settings/
+**/*.iws
+**/*.iml
+**/*.ipr
+**/.project
+**/.classpath
+.project
+.classpath
+workspace
