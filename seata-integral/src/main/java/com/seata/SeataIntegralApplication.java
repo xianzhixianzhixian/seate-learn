@@ -1,19 +1,19 @@
-package com.seate;
+package com.seata;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
- * 订单服务
+ * 积分服务
  * @author xianzhixianzhixian
- * @date 2022/2/16 23:17
+ * @date 2022/2/16 23:15
  */
 @EnableDiscoveryClient
 @SpringBootApplication
-public class SeateOrderApplication {
+public class SeataIntegralApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SeateOrderApplication.class, args);
+        SpringApplication.run(SeataIntegralApplication.class, args);
     }
 }
