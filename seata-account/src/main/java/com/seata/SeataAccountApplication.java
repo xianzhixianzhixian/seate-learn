@@ -11,9 +11,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @EnableDiscoveryClient
 @SpringBootApplication
-public class SeataIntegralApplication {
+public class SeataAccountApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SeataIntegralApplication.class, args);
+        SpringApplication.run(SeataAccountApplication.class, args);
     }
 }
